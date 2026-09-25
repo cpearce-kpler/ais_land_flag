@@ -1,5 +1,13 @@
 # ais_land_flag
-Flags AIS data that is erroneously on land. These flags can then be used as a mask. Depends on downloaded and lat/lon sorted (not DB) AIS data. Also dependent on land/water/inland water masks plus related grids. Masks and grids are available via geospatial S3 bucket.
+Flags AIS data that is erroneously on land. These flags can then be used as a mask in other processes. 
+
+
+# Dependencies
+- Downloaded AIS data sorted by latitude and longitude.
+- Masks and relate land/water/inland water masks plus related grids.
+
+Masks and grids are available via the geospatial S3 bucket.
+
 
 # Run in PowerShell
 Here is some example PowerShell code to run the script.
