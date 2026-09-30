@@ -1,4 +1,4 @@
-# ais_land_flag
+# ais_land_water_mask.py
 Flags AIS data that is erroneously on land. These flags can then be used as a mask in other processes. 
 
 
